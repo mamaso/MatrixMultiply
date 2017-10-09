@@ -1,0 +1,19 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "input",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "multiply-inputs",
+      "connection": ""
+    },
+    {
+      "name": "result",
+      "type": "queue",
+      "direction": "out",
+      "queueName": "multiply-results",
+      "connection": ""
+    }
+  ]
+}

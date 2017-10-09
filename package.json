@@ -1,0 +1,27 @@
+{
+  "name": "matrixmultiply",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**.tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamaso/matrixmultiply.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mamaso/matrixmultiply/issues"
+  },
+  "homepage": "https://github.com/mamaso/matrixmultiply#readme",
+  "devDependencies": {
+    "azure-functions-node-harness": "^0.1.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
